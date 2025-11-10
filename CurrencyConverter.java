@@ -3,7 +3,7 @@ public class CurrencyConverter {
         java.util.Scanner scan = new java.util.Scanner(System.in);
         System.out.print("If I give you £1, how many Euro will you give me? ");
         double euroOverPoundRatio = scan.nextDouble();
-        System.out.print("If I give you 1€, how many Sterling pounds will you give me? ");
+        System.out.print("If I give you 1€, how much GBP will you give me? ");
         double poundOverEuroRatio = scan.nextDouble();
         System.out.println("OK, now I know enough.");
         boolean finished = false;
